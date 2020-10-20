@@ -13,7 +13,7 @@ import com.educandoweb.course.entities.Order;
 import com.educandoweb.course.services.OrderService;
 
 
-@RestController //para falar que é um recurso web
+@RestController
 @RequestMapping(value = "/orders")
 public class OrderResource {
 	
