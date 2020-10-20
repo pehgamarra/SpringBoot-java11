@@ -9,9 +9,7 @@ import org.springframework.stereotype.Service;
 import com.educandoweb.course.entities.Order;
 import com.educandoweb.course.repositories.OrderRepository;
 
-//@Component//serve para registrar a classe como um componente.
-//@Repository é para registrar repository
-@Service //é para registrar serviço
+@Service 
 public class OrderService {
 
 	@Autowired
